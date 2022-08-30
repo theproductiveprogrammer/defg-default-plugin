@@ -1,0 +1,19 @@
+{
+  "name": "defg-default-plugin",
+  "version": "1.0.0",
+  "description": "Some nice defaults for the defg document generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theproductiveprogrammer/defg-default-plugin.git"
+  },
+  "author": "charles.lobo@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theproductiveprogrammer/defg-default-plugin/issues"
+  },
+  "homepage": "https://github.com/theproductiveprogrammer/defg-default-plugin#readme"
+}
