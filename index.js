@@ -135,7 +135,13 @@ h4 {
   font-size: 16px;
 }
 code,
+h1 code,
+h2 code,
+h3 code,
+h4 code, h5 code,
+h6 code,
 p code,
+li code,
 pre code {
   font-size: 1em;
 }
