@@ -1,5 +1,6 @@
 'use strict'
 const fs = require('fs');
+const path = require('path');
 
 let title;
 let subtitle;
@@ -34,7 +35,7 @@ function update(readme, cb) {
   if(!title) return cb(null, readme);
 
   try {
-    const p = require('./package.json');
+    const p = require(path.join(process.cwd(), 'package.json'));
     version = p.version;
     author = p.author;
     repo = p.homepage;
