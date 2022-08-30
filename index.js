@@ -35,7 +35,7 @@ function update(readme, cb) {
       }
     }
   }
-  if(!title) return cb(null, readme);
+  if(!title || !logo) return cb(null, readme);
 
   try {
     const p = require(path.join(process.cwd(), 'package.json'));
