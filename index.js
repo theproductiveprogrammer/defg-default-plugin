@@ -182,7 +182,7 @@ headerTemplate: |-
     }
   </style>
   <div class="header">
-     <span class="htitle">${title}</span>
+     <span class="htitle">${title ? title : ""}</span>
      <span class="date"></span>
   </div>
 footerTemplate: |-
